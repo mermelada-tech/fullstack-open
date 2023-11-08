@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: dark light;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #242424;
 
   font-synthesis: none;
@@ -38,7 +38,7 @@ h1 {
 }
 
 p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 button {
@@ -48,7 +48,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -58,6 +58,17 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6em;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1.6em;
 }
 
 @media (prefers-color-scheme: dark) {
